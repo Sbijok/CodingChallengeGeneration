@@ -1,0 +1,14 @@
+nav li {
+    list-style: none;
+    float: left;
+    margin-left: auto;
+    padding-right: 20px;
+    background-color: bisque;
+}
+
+.products li {
+    display: flexbox;
+    position: relative;
+    list-style: none;
+    display: inline-block
+}
