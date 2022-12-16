@@ -1,7 +1,16 @@
+.navigation {
+    background-color: bisque;
+    width: 100%;
+    display: block;
+    float:left;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
 nav li {
     list-style: none;
     float: left;
-    margin-left: auto;
+    margin-right: auto;
     padding-right: 20px;
     background-color: bisque;
 }
@@ -10,5 +19,23 @@ nav li {
     display: flexbox;
     position: relative;
     list-style: none;
-    display: inline-block
+    display: inline-block;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.AddtoCart {
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+    font-size: xx-small;
+    border-radius: 5%;
+    border-width: thin;
+}
+
+.AddtoCart:hover {
+    background-color: darkolivegreen;
+    color: whitesmoke;
 }
