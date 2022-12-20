@@ -1,41 +1,106 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+   */
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+   
 .navigation {
-    background-color: bisque;
+    background-color: #ffe4c4;
     width: 100%;
     display: block;
     float:left;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    box-shadow: 5px 5px 10px 2px #C4DFFF;
+    font-weight: bold;
 }
 
 nav li {
     list-style: none;
     float: left;
     margin-right: auto;
-    padding-right: 20px;
+    padding-right: 20%;
     background-color: bisque;
 }
 
-.products li {
+.headcolor {
+    height: 100px;
+}
+
+.productcards {
     display: flexbox;
-    position: relative;
-    list-style: none;
-    display: inline-block;
-    outline-width: 2px;
-    outline-color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
     outline-style: solid;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.AddtoCart {
-    margin-bottom: 10px;
-    background-color: blanchedalmond;
-    font-size: xx-small;
-    border-radius: 5%;
-    border-width: thin;
-}
-
-.AddtoCart:hover {
+    outline-color: gainsboro;
+    font-size: small;
+    display: inline-block;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .card button {
+    border: solid;
+    border-color: #add0fb;
+    outline: 0;
+    padding: 5px;
+    color: black;
+    background-color: bisque;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 9px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
     background-color: darkolivegreen;
     color: whitesmoke;
+  }
+
+footer {
+    /* background-color: #C4DFFF; */
+    margin-bottom: 0em;
+    width: 100%;
+    box-shadow: 0px 3px 5px 0px #add0fb;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;     
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 10%;
+    list-style: none;
+    color: black;
+    font-size: xx-small;
+    position: relative;
 }
