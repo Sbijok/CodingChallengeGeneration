@@ -5,17 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0dff3a785d.js" crossorigin="anonymous"></script>">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navigation">
         <nav><ul>
-                <li class="fs-4 align-self-center"><span style="color: #356eb4">MY SITE</span></li>
+                <li><span style="color: #356eb4">MY SITE</span></li>
                 <!-- add href link and magnify glass symbol to Search if time -->
-                <li class="fs-4 align-self-center">SEARCH</li>
+                <li><form class="searchbar" action="action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form></li>
                 <!-- add href link and trolley symbol to Cart if time -->
-                <li class="fs-4 align-self-center">CART</li>
+                <li>CART <i class="fa-solid fa-cart-shopping"></i></li>
         </ul></nav>
     </div>
     <div class="headcolor">
@@ -26,21 +29,21 @@
         <h3>Optus X Pro Mobile</h3>
         <p class="price">$799</p>
         <p>Some text about mobile..</p>
-        <p><button class="cart"><span>Add to Cart</span><i class="fa-solid fa-cart-shopping"></i></button></p>
+        <p><button class="cart"><span>Add to Cart </span></button></p>
       </div>
       <div class="card">
         <img src="images/Asus14Pentium.png" alt="Asus 14 Pentium Silver" style="width:100%">
         <h3>Asus 14 Pentium Silver</h3>
         <p class="price">$1499</p>
         <p>Some text about the computer..</p>
-        <p><button class="cart"><span>Add to Cart</span><i class="fa-solid fa-cart-shopping"></i></button></p>
+        <p><button class="cart"><span>Add to Cart </span></button></p>
       </div>
       <div class="card">
         <img src="images/LenovoIdeaPad.png" alt="Lenovo Idea Pad" style="width:100%">
         <h3>Lenovo Idea Pad</h3>
         <p class="price">$1799</p>
         <p>Some text about pad..</p>
-        <p><button class="cart"><span>Add to Cart</span><i class="fa-solid fa-cart-shopping"></i></button></p>
+        <p><button class="cart"><span>Add to Cart </span></button></p>
       </div>
     </div>
     <footer>
